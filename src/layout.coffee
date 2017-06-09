@@ -23,6 +23,6 @@ Layout = React.createClass
 
     extraProps.children = @applyLayoutToChildren(@props.children)
 
-    component(merge(@props, extraProps))
+    component(extraProps)
 
 module.exports = Layout
